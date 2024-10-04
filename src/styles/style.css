@@ -187,7 +187,8 @@ a {
 }
 
 .logButton {
-  background: #35DD8F;
+  border: 1px solid #35DD8F;
+  background: transparent;
   margin-right: 15px;
 }
 
@@ -212,6 +213,19 @@ section {
   z-index: inherit;
 }
 
+::marker {color: #17EC85;}
+
+.list_sports {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.list_sports li {
+  width: 30%;
+}
+
 table {  display: block;
   color: #fff;
   margin: 15px auto;
@@ -219,11 +233,9 @@ table {  display: block;
   width: fit-content;
   overflow: auto;
   border: 1px solid #17EC85 ;
-  border-radius: 25px;
 }
 
-table td {
-  border-radius: 20px;
+table td, th {
   border: 1px solid #17EC85 ;
   border-left: none;
   border-bottom: none;
