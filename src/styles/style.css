@@ -252,6 +252,14 @@ h2, h3 {
   padding: 0;
 }
 
+.image_container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
 p {
   padding: 15px 10px 0;
   color: #FFFFFF;
