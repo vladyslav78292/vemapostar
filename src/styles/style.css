@@ -282,13 +282,59 @@ td > a {
 }
 
 footer {
-  background-color: #10AD77;
+  background-color: #292A2E;
   padding: 30px 0 30px 0;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   flex-direction: column;
+}
+
+.footer_container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_block {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.foter_block--second img, .foter_block--first img {
+  width: 250px;
+}
+
+footer p {
+  padding: 0;
+}
+
+.footer_year, .footer_year a, .foter_block--fourth a {
+  color: #10AD77;
+}
+
+.footer_links a {
+  color: #fff !important;
+}
+
+.footer_links {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.foter_block--fourth a {
+  white-space: nowrap;
+}
+
+.foter_block--third img {
+  width: 50px;
 }
 
 footer > div {
