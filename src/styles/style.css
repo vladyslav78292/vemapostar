@@ -40,7 +40,7 @@ body {
 }
 
 h1 {
-  padding: 30px 10px 20px 10px;
+  padding: 10px;
   font-size: 36px;
 }
 
@@ -120,7 +120,7 @@ button {
 }
 
 .images_list {
-  padding-left: 5px;
+  padding-left: 10px;
   list-style-type: none;
 }
 
@@ -255,7 +255,6 @@ h2, h3 {
 .image_container {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   gap: 30px;
   justify-content: space-between;
 }
@@ -518,7 +517,7 @@ section:first-of-type {
 
 .header_links {
   display: flex;
-  gap: 35px;
+  gap: 135px;
 }
 
 .header_links a {
